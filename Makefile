@@ -15,7 +15,7 @@ options:
 	@echo "CC       = $(CC)"
 
 .c.o:
-	$(CC) -c $(CFLAGS) $<
+	$(CC) -c -g $(CFLAGS) $<
 
 config.h:
 	cp config.def.h $@
