@@ -23,3 +23,8 @@ static int histnodup           = 1;	/* if 0, record repeated histories */
  * for example: " /?\"&[]"
  */
 static const char worddelimiters[] = " ";
+
+/*
+ * Use prefix matching by default; can be inverted with the -x flag.
+ */
+static int use_prefix = 1;

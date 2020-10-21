@@ -26,4 +26,6 @@ See the man page for details.
 Patches
 -------------
 https://tools.suckless.org/dmenu/patches/navhistory/dmenu-navhistory+search-20200709.diff
+https://tools.suckless.org/dmenu/patches/prefix-completion/dmenu-prefixcompletion-flag-4.9.diff
+
 
